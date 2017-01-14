@@ -10,7 +10,8 @@ Install JDK 8
 
 Install Bazel
 ---
-ADD Bazel package source
+
+Add Bazel package source
 - `echo "deb [arch=amd64] http://storage.googleapis.com/bazel-apt stable jdk1.8" | sudo tee /etc/apt/sources.list.d/bazel.list`
 - `curl https://bazel.build/bazel-release.pub.gpg | sudo apt-key add`
 
@@ -20,6 +21,7 @@ Install and update Bazel
 
 CUDA 8.0 and cuDNN 5.1
 ---
+
 Go to https://developer.nvidia.com/cuda-downloads and get appropriate cuda deb installer file
 
 - `sudo dpkg -i cuda-repo-ubuntu1404-8-0-local_8.0.44-1_amd64.deb`
