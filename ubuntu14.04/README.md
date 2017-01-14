@@ -33,10 +33,12 @@ SET PATH and LD_LIBRARY_PATH
 
 Set up development path wherever in /etc/profile
 - `sudo vim /etc/profile`
-> PATH=$PATH:/usr/local/cuda-8.0/bin
-> export PATH
-> LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/cuda-8.0/lib64
-> export LD_LIBRARY_PATH
+```
+PATH=$PATH:/usr/local/cuda-8.0/bin
+export PATH
+LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/cuda-8.0/lib64
+export LD_LIBRARY_PATH
+```
 
 Download and Unpack cuDNN 5.1 from https://developer.nvidia.com/cudnn (registration required), move headers and libs to approriate place
 
@@ -62,3 +64,5 @@ Install tensorflow or tensorflow-gpu
 - `sudo -H pip install tensorflow`
 or
 - `sudo -H pip install tensorflow-gpu`
+
+That's it! Run /tests/ to check the installation.
