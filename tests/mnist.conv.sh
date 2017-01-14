@@ -1,0 +1,1 @@
+python -m tensorflow.models.image.mnist.convolutional
