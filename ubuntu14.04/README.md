@@ -29,7 +29,6 @@ Go to https://developer.nvidia.com/cuda-downloads and get appropriate cuda deb i
 - `sudo apt-get install cuda`
 
 Toggle Secure Boot by choosing password and reboot
-SET PATH and LD_LIBRARY_PATH
 
 Set up development path wherever in /etc/profile
 - `sudo vim /etc/profile`
@@ -61,8 +60,8 @@ For Python 3.x
 
 Install tensorflow or tensorflow-gpu
 ---
-- `sudo -H pip install tensorflow`
+- `sudo -H pip3 install tensorflow`
 or
-- `sudo -H pip install tensorflow-gpu`
+- `sudo -H pip3 install tensorflow-gpu`
 
 That's it! Run /tests/ to check the installation.
